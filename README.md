@@ -1,4 +1,4 @@
-# next.js and Cypress example [![renovate-app badge][renovate-badge]][renovate-app]
+# next.js and Cypress example [![renovate-app badge][renovate-badge]][renovate-app] [![CircleCI](https://circleci.com/gh/bahmutov/next-and-cypress-example.svg?style=svg)](https://circleci.com/gh/bahmutov/next-and-cypress-example)
 > [Next.js](https://nextjs.org/) example instrumented for code coverage from [Cypress tests](https://www.cypress.io/)
 
 ## Install and run
