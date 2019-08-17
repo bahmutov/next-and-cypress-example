@@ -1,0 +1,7 @@
+.next
+node_modules
+*.log
+yarn.lock
+package-lock.json
+.nyc_output
+coverage

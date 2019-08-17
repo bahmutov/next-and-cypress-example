@@ -1,0 +1,50 @@
+{
+  "name": "next-and-cypress-example",
+  "version": "1.0.0",
+  "description": "Next.js example instrumented for code coverage from Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "e2e": "start-test dev 3000 cy:open",
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "babel-plugin-istanbul": "5.2.0",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "^9.0.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "1.8.0",
+    "cypress": "3.4.1",
+    "istanbul-lib-coverage": "2.0.5",
+    "nyc": "14.1.1",
+    "start-server-and-test": "1.10.0"
+  },
+  "nyc": {
+    "exclude": [
+      "pages/api/__coverage__.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/next-and-cypress-example.git"
+  },
+  "keywords": [
+    "next.js",
+    "cypress",
+    "cypress-io",
+    "cypress-example",
+    "istanbul",
+    "code-coverage"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/next-and-cypress-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/next-and-cypress-example#readme"
+}
