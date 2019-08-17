@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Next.js example instrumented for code coverage from Cypress tests",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",

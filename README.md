@@ -1,4 +1,4 @@
-# next.js and Cypress example
+# next.js and Cypress example [![renovate-app badge][renovate-badge]][renovate-app]
 > [Next.js](https://nextjs.org/) example instrumented for code coverage from [Cypress tests](https://www.cypress.io/)
 
 ## Install and run
@@ -77,3 +77,6 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
