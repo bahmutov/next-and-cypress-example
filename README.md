@@ -35,6 +35,17 @@ $ open coverage/lcov-report/index.html
 
 ![Code coverage report](images/report.png)
 
+On CI after the tests finish, we store the coverage reports. We also run a script to check if the coverage dropped below 100%
+
+```shell
+$ npx nyc report --reporter=text-summary --check-coverage --statements 100
+================== Coverage summary =========
+Statements   : 100% ( 22/22 )
+Branches     : 100% ( 0/0 )
+Functions    : 100% ( 9/9 )
+Lines        : 100% ( 22/22 )
+=============================================
+```
 
 ## See more
 
