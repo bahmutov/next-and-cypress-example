@@ -35,6 +35,29 @@ $ open coverage/lcov-report/index.html
 
 ![Code coverage report](images/report.png)
 
+To fetch the server-side code coverage, the `@cypress/code-coverage` plugin needs an endpoint. This endpoint is implemented in [pages/api/__coverage__.js](pages/api/__coverage__.js) file following the [Next.js API convention](https://nextjs.org/docs#api-routes). This endpoint just returns the existing global coverage object or `null`
+
+```js
+export default (req, res) => {
+  res.status(200).json({
+    coverage: global.__coverage__ || null
+  })
+}
+```
+
+Cypress plugin requests the right endpoint using the environment variable from [cypress.json](cypress.json) file
+
+```json
+{
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "codeCoverage": {
+      "url": "/api/__coverage__"
+    }
+  }
+}
+```
+
 On CI after the tests finish, we store the coverage reports. We also run a script to check if the coverage dropped below 100%
 
 ```shell
