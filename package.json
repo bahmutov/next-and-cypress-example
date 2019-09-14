@@ -25,7 +25,7 @@
     "cypress": "3.4.1",
     "istanbul-lib-coverage": "2.0.5",
     "nyc": "14.1.1",
-    "start-server-and-test": "1.10.0"
+    "start-server-and-test": "1.10.2"
   },
   "nyc": {
     "exclude": [
