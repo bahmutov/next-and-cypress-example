@@ -17,8 +17,8 @@
     "babel-plugin-istanbul": "5.2.0",
     "isomorphic-unfetch": "3.0.0",
     "next": "9.0.7",
-    "react": "16.10.0",
-    "react-dom": "16.10.0"
+    "react": "16.10.1",
+    "react-dom": "16.10.1"
   },
   "devDependencies": {
     "@cypress/code-coverage": "1.10.1",
