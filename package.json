@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@cypress/code-coverage": "1.10.4",
-    "cypress": "3.8.2",
+    "cypress": "3.8.3",
     "istanbul-lib-coverage": "2.0.5",
     "nyc": "14.1.1",
     "start-server-and-test": "1.10.6"
