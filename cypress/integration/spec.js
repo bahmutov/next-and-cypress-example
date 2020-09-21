@@ -11,7 +11,7 @@ describe('Batman TV shows', () => {
 
   it('goes to the first post', () => {
     cy.visit('/')
-    cy.get('li')
+    cy.get('li').should('have.length', 10)
       .first()
       .find('a')
       .click()
