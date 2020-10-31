@@ -21,7 +21,7 @@
     "react-dom": "16.14.0"
   },
   "devDependencies": {
-    "@cypress/code-coverage": "3.8.2",
+    "@cypress/code-coverage": "3.8.3",
     "check-code-coverage": "1.10.0",
     "cypress": "5.5.0",
     "start-server-and-test": "1.11.5"
