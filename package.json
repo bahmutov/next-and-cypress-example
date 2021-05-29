@@ -23,7 +23,7 @@
   "devDependencies": {
     "@cypress/code-coverage": "3.9.5",
     "check-code-coverage": "1.10.0",
-    "cypress": "7.3.0",
+    "cypress": "7.4.0",
     "start-server-and-test": "1.12.3"
   },
   "nyc": {
