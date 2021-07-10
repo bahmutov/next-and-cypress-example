@@ -24,7 +24,7 @@
     "@cypress/code-coverage": "3.9.7",
     "check-code-coverage": "1.10.0",
     "cypress": "7.6.0",
-    "start-server-and-test": "1.12.5"
+    "start-server-and-test": "1.12.6"
   },
   "nyc": {
     "exclude": [
