@@ -14,7 +14,7 @@
     "check-coverage-limits": "check-total --min 100"
   },
   "dependencies": {
-    "babel-plugin-istanbul": "5.2.0",
+    "babel-plugin-istanbul": "7.0.0",
     "isomorphic-unfetch": "3.1.0",
     "next": "9.5.5",
     "react": "16.14.0",
